@@ -1,0 +1,423 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+.hi
+{
+    margin-top:8px;
+    margin-left:6%;
+    width:60px;
+    height:60px;
+    padding:10px;
+}
+.head
+{
+    height:600px;
+    width:100%;
+    background-image: url("img/lnadscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 3px  #2a2a2a;
+}
+
+.nav
+{
+    background-color: rgba(24, 18, 18, 0.486);
+    height:80px;
+    width:100%;
+}
+.lang
+{
+    cursor: pointer;
+    color:seashell;
+    margin-top:-45px;
+    margin-left:70%;
+}
+.h1
+{
+    font-size: 45px;
+    margin-left:35%;
+    margin-top:5%;
+}
+.h4
+{
+    font-size: 20px;
+    margin-left:40%;
+}
+.btn
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:45%;
+    color:#fff;
+    background-color: teal;
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:45%;
+    color:#fff;
+    background-color: rgb(89, 192, 192);
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+.h6
+{
+    margin-top:1%;
+    margin-left:46%;
+    font-size:13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card
+{
+    background-color: rgba(223, 211, 211, 0.74);
+    height:400px;
+    width:100%;
+    transition:ease-in;
+    padding-bottom: 4%;
+}
+
+.card1i
+{
+    display:flex;
+    float:left;
+    width:50%;
+    height: 100%;
+
+}
+
+.card1t
+{
+    display:flex;
+    float:left;
+    width:50%;
+    height: 100%;
+}
+
+.card1i img
+{
+    margin-top:7%;
+    margin-left:30%;
+    width:40%;
+    height:70%;
+    border-radius:5%;
+    box-shadow: 6px 6px #686464;
+    border:none;
+
+}
+
+.card1t1 h1{
+    width:50%;
+    margin-top:10%;
+    margin-left:10%;
+    height:25px;
+    display:block;
+}
+.card1t1 p{
+    font-size: 20px;
+    width:50%;
+    margin-top:8%;
+    margin-left:10%;
+    display:block;
+
+}
+
+.btn2
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:10%;
+    color:#fff;
+    background-color: teal;
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+.btn2:hover
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:10%;
+    color:#fff;
+    background-color: rgb(79, 211, 211);
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+
+/*-------------------------*/
+.card2i
+{
+    display:flex;
+    float:left;
+    width:50%;
+    height: 100%;
+
+}
+
+.card2t
+{
+    display:flex;
+    float:left;
+    width:50%;
+    height: 100%;
+}
+
+
+.card2i img
+{
+    margin-top:7%;
+    margin-left:10%;
+    width:40%;
+    height:70%;
+    border-radius:5%;
+    box-shadow: 6px 6px #686464;
+    border:none;
+
+}
+
+.card2t1 h1{
+    width:50%;
+    margin-top:10%;
+    margin-left:30%;
+    height:25px;
+    display:block;
+}
+.card2t1 p{
+    font-size: 20px;
+    width:50%;
+    margin-top:8%;
+    margin-left:30%;
+    display:block;
+
+}
+
+.btn3
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:30%;
+    color:#fff;
+    background-color: teal;
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+.btn3:hover
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:30%;
+    color:#fff;
+    background-color: rgb(55, 194, 194);
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+
+/*--------------------------------------*/
+
+.card3i
+{
+    display:flex;
+    float:left;
+    width:50%;
+    height: 100%;
+
+}
+
+.card3t
+{
+    display:flex;
+    float:left;
+    width:50%;
+    height: 100%;
+}
+
+.card3i img
+{
+    margin-top:7%;
+    margin-left:30%;
+    width:40%;
+    height:70%;
+    border-radius:5%;
+    box-shadow: 6px 6px #686464;
+    border:none;
+
+}
+
+.card3t1 h1{
+    width:50%;
+    margin-top:10%;
+    margin-left:10%;
+    height:25px;
+    display:block;
+}
+.card3t1 p{
+    font-size: 20px;
+    width:50%;
+    margin-top:8%;
+    margin-left:10%;
+    display:block;
+
+}
+
+.btn4
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:10%;
+    color:#fff;
+    background-color: teal;
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+.btn4:hover
+{
+    margin-top:2%;
+    width: 190px;
+    margin-left:10%;
+    color:#fff;
+    background-color: rgb(78, 190, 190);
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+
+/*-----------------------------*/
+.card41
+{
+    margin-left:10%;
+    display: flex;
+    float:left;
+    width:23%;
+    height:100%;
+}
+.card41 img{
+    border-radius: 3%;
+    height:50%;
+    width:75%;
+}
+.card42 img{
+    border-radius: 3%;
+    margin-left:35%;
+    height:50%;
+    width:75%;
+}
+.card43 img{
+    border-radius: 3%;
+    margin-left:12%;
+    height:50%;
+    width:75%;
+}
+.card42
+{
+    display: flex;
+    float:left;
+    width:33%;
+    height:100%;
+}
+.card43
+{
+    display: flex;
+    float:left;
+    width:33%;
+    height:100%;
+}
+
+.buff1 h1{
+    margin-left:-10%;
+    margin-top:10%;
+    font-size:30px;
+    display:block;
+}
+.l1
+{
+
+    font-size:15px;
+    margin-left:45%;
+    text-align: center;
+    color:rgb(12, 14, 14);
+    background:transparent;
+}
+.l2
+{
+    font-size:15px;
+    margin-left:35%;
+    text-align: center;
+    color:rgb(18, 20, 20);
+}
+.buff1 p{
+    margin-left:-10%;
+    margin-top:2%;
+    font-size:20px;
+    display:block;
+}
+.buff h1{
+    margin-left:22%;
+    margin-top:10%;
+    font-size:30px;
+    display:block;
+}
+
+.buff p{
+    margin-left:22%;
+    margin-top:2%;
+    font-size:20px;
+    display:block;
+}
+
+.buff3 h1{
+    margin-left:10%;
+    margin-top:7%;
+    font-size:30px;
+    width:40%;
+    display:block;
+}
+
+.buff3 p{
+    margin-left:10%;
+    margin-top:2%;
+    font-size:20px;
+    display:block;
+}
+
+.foot
+{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:700px;
+    padding-left:10%;
+    padding-top:2%;
+
+}
+.foot img{
+    height:90%;
+    border-radius:10%;
+    width:90%;
+}
